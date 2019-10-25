@@ -1,0 +1,21 @@
+{
+  "name": "vibrations",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "gh-pages": "^2.0.1",
+    "prettier": "^1.18.2"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base"
+  },
+  "homepage": "http://terrenmoe.github.io/vibrations"
+}
